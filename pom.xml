@@ -5,7 +5,7 @@
 	<groupId>com.mt</groupId>
 	<artifactId>maven-web-application</artifactId>
 	<packaging>war</packaging>
-	<version>0.0.2-SNAPSHOT</version>
+	<version>0.0.1-SNAPSHOT</version>
 	
 	<name>maven-web-application</name>
 
@@ -98,13 +98,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Maven-Release</name>
-	      <url>http://13.233.238.98:8081/repository/Maven-Release//</url>
+	      <url>http://13.233.238.98:8081/repository/Maven-Release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Maven-Shapsho</name>
-	      <url>http://513.233.238.98:8081/repository/Maven-Shapshot//</url>
+	      <url>http://13.233.238.98:8081/repository/Maven-Shapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
