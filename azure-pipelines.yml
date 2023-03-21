@@ -4,7 +4,7 @@
     TomcatUrl: 'http://localhost:8080'
     Username: 'admin'
     Password: 'indianic'
-    Warfile: '/'
+    Warfile: '/target/maven-web-application.war'
     Context: '/'
     ServerVersion: '7OrAbove'
 # Build your Java project and run tests with Apache Maven.
