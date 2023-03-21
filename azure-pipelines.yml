@@ -1,4 +1,12 @@
 # Maven
+- task: TomcatDeployment@1
+  inputs:
+    TomcatUrl: 'http://localhost:8080'
+    Username: 'admin'
+    Password: 'indianic'
+    Warfile: '/'
+    Context: '/'
+    ServerVersion: '7OrAbove'
 # Build your Java project and run tests with Apache Maven.
 # Add steps that analyze code, save build artifacts, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/java
