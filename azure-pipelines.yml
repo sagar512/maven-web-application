@@ -1,4 +1,12 @@
 # Maven
+- task: DownloadPackage@1
+  inputs:
+    packageType: 'maven'
+    feed: '/73e0ec99-410c-4a60-b119-d5409f18714e'
+    view: '1fd9ada1-8320-4388-a770-67b2f9a93e64'
+    definition: 'mvn'
+    version: 'v1'
+    downloadPath: '$(System.ArtifactsDirectory)'
 # Build your Java project and run tests with Apache Maven.
 # Add steps that analyze code, save build artifacts, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/java
