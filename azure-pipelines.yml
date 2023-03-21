@@ -23,6 +23,6 @@ steps:
     TomcatUrl: 'http://localhost:8080'
     Username: 'admin'
     Password: 'indianic'
-    Warfile: '/target/maven-web-application.war'
+    Warfile: '/home/vsts/.m2/repository/com/mt/maven-web-application/0.0.1-SNAPSHOT/maven-web-application-0.0.1-SNAPSHOT.war'
     Context: '/'
     ServerVersion: '7OrAbove'
