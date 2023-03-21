@@ -19,6 +19,8 @@ steps:
     jdkArchitectureOption: 'x64'
     goals: 'install'
 - task: TomcatDeployment@1
+  netstat -tlpen | grep 8080
+  ufw allow 8080
   inputs:
     TomcatUrl: 'http://localhost:8080'
     Username: 'admin'
